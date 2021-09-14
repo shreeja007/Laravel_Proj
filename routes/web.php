@@ -19,9 +19,14 @@ Route::get('/', function () {
     return view('products', [ 'products' => $product1]);
 });
 //for product.blade.php
-Route::get('/product/{product}', function ($id) {
-    $product = Product::find($id);
-    return view('product', ['product' => $product]);
+// Route::get('/product/{product}', function ($id) {
+//     $product = Product::find($id);
+//     return view('product', ['product' => $product]);
+// });
+
+//alternative for product.blade.php
+Route::get('/product/{prod}', function (Product $prod) {
+    return view('product', ['product' => $prod]);
 });
 
 Route::get('/home', function () {

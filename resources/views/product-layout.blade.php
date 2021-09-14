@@ -14,20 +14,20 @@
 <meta name="description" content="">
 <meta name="author" content="">	
 <!-- bootstrap css -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
 <!-- style css -->
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
 <!-- Responsive-->
-<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="/css/responsive.css">
 <!-- fevicon -->
-<link rel="icon" href="images/fevicon.ico" type="image/gif" />
+<link rel="icon" href="/images/fevicon.ico" type="image/gif" />
 <!-- Scrollbar Custom CSS -->
-<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<link rel="stylesheet" href="/css/jquery.mCustomScrollbar.min.css">
 <!-- Tweaks for older IEs-->
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 <!-- owl stylesheets --> 
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/css/owl.theme.default.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
 </head>
@@ -37,7 +37,7 @@
 		<div class="container-fluid">
 			<div class="row">
 			    <div class="col-sm-12 col-lg-3">
-				    <div class="logo" ><img src="images/logo.png"></div>
+				    <div class="logo" ><img src="/images/logo.png"></div>
 			    </div>
 			    <div class="col-sm-4 col-lg-5">
 			    	<div class="menu-area">
@@ -49,15 +49,15 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                             <ul class="navbar-nav mr-auto">
                                <li class="nav-item active">
-                                <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a> </li>
+                                <a class="nav-link active" href="/index.html">Home<span class="sr-only">(current)</span></a> </li>
                                <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a></li>
+                                <a class="nav-link" href="/about.html">About</a></li>
                                <li class="nav-item">
-                                <a class="nav-link" href="company.html">Company</a></li>
+                                <a class="nav-link" href="/company.html">Company</a></li>
                                <li class="#" href="#">
-      	                        <a class="nav-link" href="furnitures.html">Furnitures</a></li>
+      	                        <a class="nav-link" href="/furnitures.html">Furnitures</a></li>
                                <li class="nav-item" href="#">
-      	                        <a class="nav-link" href="contact.html">Contact Us</a></li>
+      	                        <a class="nav-link" href="/contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -71,10 +71,10 @@
                      </div>
                   </div>
                   <div class="middle_main">
-                     <div class="shoping_bag"><img src="images/search-icon.png"></div>
+                     <div class="shoping_bag"><img src="/images/search-icon.png"></div>
                   </div>
                   <div class="right_main">
-                     <div class="togle_main"><img src="images/shopping-bag.png"></div>
+                     <div class="togle_main"><img src="/images/shopping-bag.png"></div>
                   </div>
                  </div>
 			    </div>
@@ -94,11 +94,11 @@
 			    	<div class="useful_main border_right0">
 			    		<h2 class="useful_text">Menus</h2>
 			    		<ul >
-			    			<li><a href="home.html">Home</a></li>
-			    			<li><a href="about.html">About </a></li>
-			    			<li><a href="company.html">Company</a></li>
-			    			<li><a href="furnitures.html">Furnitures</a></li>
-			    			<li><a href="contact.html">Contact Us</a></li>
+			    			<li><a href="/home.html">Home</a></li>
+			    			<li><a href="/about.html">About </a></li>
+			    			<li><a href="/company.html">Company</a></li>
+			    			<li><a href="/furnitures.html">Furnitures</a></li>
+			    			<li><a href="/contact.html">Contact Us</a></li>
 			    		</ul>
 			    		
 			    		
@@ -110,10 +110,10 @@
 			    <div class="col-lg-6 col-md-6 col-sm-6 ">
 				   <h2 class="useful_text">Address</h2>
                      <ul class="location">
-			    			<li><img src="images/map-icon.png">Locations</li>
+			    			<li><img src="/images/map-icon.png">Locations</li>
 			    			
-			    			<li><img src="images/call-icon.png"><a href="company.html">+71 89078493</a></li>
-			    			<li><img src="images/email-icon.png"><a href="furnitures.html">demo@gmail.com</a></li>
+			    			<li><img src="/images/call-icon.png"><a href="/company.html">+71 89078493</a></li>
+			    			<li><img src="/images/email-icon.png"><a href="/furnitures.html">demo@gmail.com</a></li>
 			    			
 			    		</ul>
                        
@@ -139,16 +139,16 @@
 	<!-- copyright section end -->	
 
       <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
+      <script src="/js/jquery.min.js"></script>
+      <script src="/js/popper.min.js"></script>
+      <script src="/js/bootstrap.bundle.min.js"></script>
+      <script src="/js/jquery-3.0.0.min.js"></script>
+      <script src="/js/plugin.js"></script>
       <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
+      <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="/js/custom.js"></script>
       <!-- javascript --> 
-      <script src="js/owl.carousel.js"></script>
+      <script src="/js/owl.carousel.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
       <script>
          $(document).ready(function(){

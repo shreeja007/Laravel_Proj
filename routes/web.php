@@ -25,7 +25,8 @@ Route::get('/product/{product}', function ($id) {
 });
 
 Route::get('/home', function () {
-    return view('home');
+    $product1 = Product::all();
+    return view('home', [ 'products' => $product1]);
 });
 
 Route::get('/create_product', function () {
